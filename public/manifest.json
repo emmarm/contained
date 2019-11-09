@@ -1,25 +1,17 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+  "short_name": "contained",
+  "name": "Contained",
+  "version": "0.1.0",
+  "sidebar_action": {
+    "default_title": "Contained",
+    "default_panel": "index.html",
+    "browser_style": true
+  },
+  "applications": {
+    "gecko": {
+      "id": "contained@firefoxaddons.org",
+      "strict_min_version": "54.0a1"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  },
+  "permissions": ["contextualIdentities", "cookies", "storage", "tabs"]
 }
